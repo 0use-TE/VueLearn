@@ -1,5 +1,10 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+// 引入 Bootstrap CSS
+import 'bootstrap/dist/css/bootstrap.min.css'
+// 引入 Bootstrap JS（包含 Popper）
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+
+let app= createApp(App)
+app.mount("#app")
